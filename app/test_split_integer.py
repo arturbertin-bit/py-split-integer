@@ -29,4 +29,3 @@ def test_should_add_zeros_when_value_is_less_than_number_of_parts() -> None:
     expected = [0, 0, 1, 1]
     actual = split_integer(2, 4)
     assert actual == expected
-
